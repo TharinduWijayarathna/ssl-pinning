@@ -27,8 +27,18 @@ TARGET_URL=https://api.example.com PORT=8080 node index.js
 
 ## API Routes
 
-- **GET /amazon** — Test pinning with Amazon Trust Services roots (for ACM-issued certs)
-- **GET /google** — Test pinning with Google Trust Services roots (for GTS-issued certs)
+| Method | URL | Description |
+|--------|-----|-------------|
+| GET | `http://localhost:3000/amazon` | Test pinning with Amazon Trust Services roots (for ACM-issued certs) |
+| GET | `http://localhost:3000/google` | Test pinning with Google Trust Services roots (for GTS-issued certs) |
+
+```bash
+# Test Amazon pinning
+curl http://localhost:3000/amazon
+
+# Test Google pinning
+curl http://localhost:3000/google
+```
 
 ## Project Structure
 
