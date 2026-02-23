@@ -6,7 +6,7 @@ Tests SSL/TLS certificate pinning against a target URL using Amazon Trust Servic
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `TARGET_URL` | The HTTPS URL to test (e.g. `https://uatv2.patpat.lk`) | `https://uatv2.patpat.lk` |
+| `TARGET_URL` | The HTTPS URL to test (e.g. `https://exmaple.com`) | `https://example.com` |
 | `PORT` | HTTP server port | `3000` |
 
 ## Usage
